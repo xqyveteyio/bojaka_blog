@@ -1,0 +1,144 @@
+#! ---------------------------------------------------------------
+#! Aurora Theme for Hexo
+#! ---------------------------------------------------------------
+
+site:
+  subtitle: 把想清楚的事情写下来
+  author: Bojaka
+  nick: Bojaka
+  description: 记录阅读、城市、厨房和动手做的小事。
+  link: /
+  language: zh-CN
+  multi_language: true
+  logo: https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=240&q=80
+  avatar: https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=240&q=80
+  beian:
+    number: ''
+    link: ''
+  police_beian:
+    number: ''
+    link: ''
+  started_date: 2026-09-01
+  pathSlug: slug
+
+authors:
+  Bojaka:
+    name: Bojaka
+    avatar: https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=240&q=80
+    link: /
+    description: 喜欢把一天里的小事拆开，再慢慢写清楚。
+    socials:
+      github: https://github.com/auroral-ui/hexo-theme-aurora
+
+menu:
+  About: true
+  Tags: true
+  Archives: true
+  Links: true
+
+theme:
+  dark_mode: true
+  profile_shape: diamond
+  feature: true
+  gradient:
+    color_1: '#24c6dc'
+    color_2: '#5433ff'
+    color_3: '#ff0099'
+
+socials:
+  github: https://github.com/auroral-ui/hexo-theme-aurora
+
+site_meta:
+  cdn: cn
+  favicon:
+  description: Bojaka 的个人博客。记录阅读、城市、厨房和动手做的小事。
+  keywords: Bojaka,博客,阅读,城市,技术
+  author: Bojaka
+
+gitalk:
+  enable: false
+  autoExpand: true
+  clientID: ''
+  clientSecret: ''
+  repo: ''
+  owner: ''
+  admin: ['']
+  id: uid
+  language: zh-CN
+  distractionFreeMode: true
+  recentComment: false
+  proxy: ''
+
+valine:
+  enable: false
+  app_id:
+  app_key:
+  avatar: ''
+  placeholder: 留下你的想法
+  visitor: false
+  lang: zh-CN
+  avatarForce: false
+  meta: ['nick', 'mail']
+  requiredFields: ['nick', 'mail']
+  admin: ''
+  recentComment: false
+
+twikoo:
+  enable: false
+  recentComment: false
+  envId: ''
+  lang: zh-CN
+
+waline:
+  enable: false
+  recentComment: false
+  reaction: false
+  login: disable
+  meta: ['nick', 'mail']
+  requiredMeta: ['nick', 'mail']
+  commentSorting: latest
+  wordLimit: 0
+  imageUploader: false
+  pageSize: 10
+  serverURL: ''
+
+busuanzi:
+  enable: false
+
+copy_protection:
+  enable: true
+  author:
+    cn: 作者
+    en: Author
+  link:
+    cn: 本文来自于
+    en: Article is from
+  license:
+    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
+    en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
+
+aurora_bot:
+  enable: false
+  locale: zh-CN
+  bot_type: dia
+  tips:
+
+injects:
+  scripts:
+  css:
+
+footer_links:
+  - title: 导航
+    links:
+      - title: 关于
+        url: /about
+      - title: 归档
+        url: /archives
+      - title: 标签
+        url: /tags
+  - title: 友链
+    mode: links
+
+shiki:
+  enable: true
+  backgroundColor: '#1a1a1a'
