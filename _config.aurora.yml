@@ -3,10 +3,10 @@
 #! ---------------------------------------------------------------
 
 site:
-  subtitle: 把想清楚的事情写下来
+  subtitle: 请随意使用我记录的知识
   author: Bojaka
   nick: Bojaka
-  description: 记录阅读、城市、厨房和动手做的小事。
+  description: 欢迎来到我的博客，请随意使用我记录的知识。
   link: /
   language: zh-CN
   multi_language: true
@@ -18,7 +18,7 @@ site:
   police_beian:
     number: ''
     link: ''
-  started_date: 2026-09-01
+  started_date: 2025-03-22
   pathSlug: slug
 
 authors:
@@ -26,7 +26,7 @@ authors:
     name: Bojaka
     avatar: https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=240&q=80
     link: /
-    description: 喜欢把一天里的小事拆开，再慢慢写清楚。
+    description: 欢迎来到我的博客，请随意使用我记录的知识。
     socials:
       github: https://github.com/auroral-ui/hexo-theme-aurora
 
@@ -34,7 +34,7 @@ menu:
   About: true
   Tags: true
   Archives: true
-  Links: true
+  Links: false
 
 theme:
   dark_mode: true
@@ -51,8 +51,8 @@ socials:
 site_meta:
   cdn: cn
   favicon:
-  description: Bojaka 的个人博客。记录阅读、城市、厨房和动手做的小事。
-  keywords: Bojaka,博客,阅读,城市,技术
+  description: 欢迎来到我的博客，请随意使用我记录的知识。
+  keywords: 博客,Linux,Fedora,开发笔记
   author: Bojaka
 
 gitalk:
@@ -136,8 +136,6 @@ footer_links:
         url: /archives
       - title: 标签
         url: /tags
-  - title: 友链
-    mode: links
 
 shiki:
   enable: true

@@ -4,16 +4,16 @@
 
 # Site
 title: Bojaka
-subtitle: 把想清楚的事情写下来
-description: Bojaka 的个人博客。记录阅读、城市、厨房和动手做的小事。
-keywords: Bojaka,博客,阅读,城市,技术
+subtitle: 请随意使用我记录的知识
+description: 欢迎来到我的博客，请随意使用我记录的知识。
+keywords: 博客,Linux,Fedora,开发笔记
 author: Bojaka
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://localhost:4000
+url: http://example.com
 permalink: post/:title/
 permalink_defaults:
 pretty_urls:
